@@ -14,7 +14,7 @@
 #define LED3 25 
 void setup() 
 {
-  Serial.begin(115200);                     // platformio.ini has monitor_speed = 115200                                            // make sure both are set to same value
+  Serial.begin(9600);                     // platformio.ini has monitor_speed = 9600                                            // make sure both are set to same value
  pinMode(LED1, OUTPUT);  
  pinMode(LED2, OUTPUT);
  pinMode(LED3, OUTPUT); 
